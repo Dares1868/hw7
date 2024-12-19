@@ -1,0 +1,104 @@
+@import url(reset.css);
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.float_parent {
+  background: #dd6988;
+  font-size: 0;
+  font-family: "Oswald", serif;
+  font-weight: 400;
+}
+
+.float_child {
+  padding: 10px;
+  outline: 1px solid black;
+  font-size: 20px;
+  width: 400px;
+  float: left;
+  height: 400px;
+}
+
+.float_2 {
+  background: #ed177e;
+  font-size: 0;
+}
+.float_2_parent {
+  width: 800px;
+  outline: 1px solid black;
+  float: left;
+  font-family: "Oswald", serif;
+  font-weight: 500;
+}
+.float_2_parent > div {
+  height: 200px;
+  outline: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+}
+.float_2_parent + .float_2_parent {
+  width: 400px;
+  outline: 1px solid black;
+}
+
+.float_2_parent + .float_2_parent > div {
+  height: 133.33px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.block_3 {
+  font-size: 0;
+  background: #a82fb5;
+}
+.float_left {
+  width: 400px;
+  outline: 1px solid black;
+  float: left;
+  height: 400px;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Oswald", serif;
+  font-weight: 600;
+}
+
+.float_right {
+  width: 800px;
+  outline: 1px solid black;
+  float: right;
+  font-family: "Oswald", serif;
+  font-weight: 600;
+}
+.float_right > div {
+  font-size: 20px;
+}
+
+.block_1 {
+  height: 200px;
+  outline: 1px solid black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.float_right_bottom {
+  font-size: 0;
+}
+.float_left_1 {
+  float: left;
+  outline: 1px solid black;
+  height: 200px;
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.float_right_blocks {
+  float: right;
+  outline: 1px solid black;
+  height: 100px;
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+}
